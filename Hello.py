@@ -1,0 +1,6 @@
+a= input("What is your name?: ")
+b = input("What is your age?: ")
+c = input("where do you live: ")
+d = input("Which country: ")
+string = "My name is {0} and I am from {3} with age {1} and city {2}".format(a,b,c,d)
+print (string)
